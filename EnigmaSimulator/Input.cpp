@@ -188,7 +188,7 @@ char* askDaylyKey(int numRotors) {
 	char* result = new char[numRotors];
 	std::string tmpResult;
 	int i = 0;
-	std::cout << "Please enter the daily key (must be exactly as long as your amount of rotors and only letters allowed)" << std::endl;
+	std::cout << "Please enter the daily key (has to be exactly as long as the amount of rotors and only letters are allowed)" << std::endl;
 	std::cout << "eg. 5 Rotors -> abcde" << std::endl;
 
 	std::cin >> tmpResult;
@@ -241,7 +241,7 @@ bool askIfDecode() {
 std::string askForMsg(int numRotors, bool decode) {
 	std::string result;
 
-	std::cout << "Type your message you want to " << ((decode) ? "decode" : "encode") << " (incl your msgKey that must be at least as long as the amount of Rotors) Spaces are not allowed" << std::endl;
+	std::cout << "Type your message you want to " << ((decode) ? "decode" : "encode") << " (incl your msgKey that must be at least as long as the amount of rotors) spaces are not allowed" << std::endl;
 	std::cin >> result;
 	while (std::cin.fail() || !verfyLetters(changeToUpper(result), numRotors)) {
 		std::cout << "You made a wrong input..try again:" << std::endl;
