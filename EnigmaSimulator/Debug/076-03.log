@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (076-03.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  Rotor.cpp
+  Reflector.cpp
+  Input.cpp
+  Enigma.cpp
+  EncoderModule.cpp
+  main.cpp
+  Generating Code...
+  076-03.vcxproj -> D:\Studium\3. Semester\AST\076-03\Debug\Enigma-Simulator.exe
+  076-03.vcxproj -> D:\Studium\3. Semester\AST\076-03\Debug\Enigma-Simulator.pdb (Full PDB)
